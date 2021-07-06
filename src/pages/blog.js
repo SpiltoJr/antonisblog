@@ -1,30 +1,50 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import {
-    Typography, Card, CardActions, CardContent,
-    CardMedia, Container } from '@material-ui/core';
+  Typography, AppBar, Card, CardActions, CardContent,
+  CardMedia, CssBaseline, Grid, Toolbar, Container,Box,Button
+} from '@material-ui/core';
+    import AppBarComp from '../Components/AppBar';
+
 
 export default function Blog({ data }) {
   const { posts } = data.blog
+  const flexContainer = {
+    display: 'flex',
+    flexDirection: 'column',
+    padding: 0,
+    background:'#303030',
+  marginTop: 100
+  };
 
+const CardStyle = {
+  maxWidth:400,
+   margin:15,
+    padding:15,
+    backgroundColor:'#5c6ac4',
+    textDecoration: 'none'
+};
   return (
-    <div>
-      <h1>My blog posts</h1>
+    <Box style={flexContainer}>
+       <style>{'body { background-color: #303030; }'}</style>
+      <AppBarComp/>
+      <Typography variant='h2' style={{color:'white'}}>Αρθρα</Typography>
 
       {posts.map(post => (
-          <Card>
+          <Card style={CardStyle}>
         <article key={post.id}>
-          <Link to={post.fields.slug}>
-            <h2>{post.frontmatter.title}</h2>
+          <Link to={post.fields.slug} style={{ textDecoration: 'none' , color: "white"  }}>
+            <Typography variant='h4'>{post.frontmatter.title}</Typography>
           </Link>
-          <small>
+          <Typography variant='h7'>
             {post.frontmatter.author}, {post.frontmatter.date}
-          </small>
-          <p>{post.excerpt}</p>
+          </Typography>
+          <p></p>
+          <Typography variant='h6'>{post.excerpt}</Typography>
         </article>
         </Card>
       ))}
-    </div>
+    </Box>
   )
 }
 

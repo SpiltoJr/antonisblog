@@ -8,8 +8,8 @@ module.exports = {
   /* Your site config here */
 
   siteMetadata: {
-    title: 'Antonis Petropoulo s Blog',
-    description: 'This is my blog'  
+    title: 'Αντωνης Πετροπουλος',
+    description: 'Καλως Ηρθατε στο blog μου'  
   },
   plugins: [
     {
