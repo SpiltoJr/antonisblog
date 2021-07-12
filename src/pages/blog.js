@@ -14,7 +14,7 @@ export default function Blog({ data }) {
     flexDirection: 'column',
     padding: 0,
     background:'#303030',
-  marginTop: 100
+    marginTop: 100
   };
 
 const CardStyle = {

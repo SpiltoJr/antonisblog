@@ -14,6 +14,8 @@
 
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
+  "component---src-pages-404-js": preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js")),
+  "component---src-pages-epafi-js": preferDefault(__webpack_require__(/*! ./src/pages/epafi.js */ "./src/pages/epafi.js")),
   "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))
   }
 
@@ -11153,7 +11155,7 @@ const AppBarComp = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__.default, {
     variant: "h6"
   }, "\u0391\u03A1\u0398\u03A1\u0391"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/products",
+    to: "/epafi",
     style: {
       textDecoration: 'none',
       color: "white",
@@ -11161,12 +11163,56 @@ const AppBarComp = props => {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__.default, {
     variant: "h6"
-  }, "\u0395\u03A0\u0399\u039A\u039F\u0399\u039D\u03A9\u039D\u0399\u0391"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/settings"
-  }))));
+  }, "\u0395\u03A0\u0399\u039A\u039F\u0399\u039D\u03A9\u039D\u0399\u0391")))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AppBarComp);
+
+/***/ }),
+
+/***/ "./src/pages/404.js":
+/*!**************************!*\
+  !*** ./src/pages/404.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Component)
+/* harmony export */ });
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Box/Box.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Typography/Typography.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Components_AppBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Components/AppBar */ "./src/Components/AppBar.js");
+
+
+
+function Component() {
+  const flexContainer = {
+    display: 'flex',
+    flexDirection: 'column',
+    padding: 0,
+    background: '#303030',
+    marginTop: 100
+  };
+  const CardStyle = {
+    maxWidth: 400,
+    margin: 15,
+    padding: 15,
+    backgroundColor: '#5c6ac4',
+    textDecoration: 'none'
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__.default, {
+    style: flexContainer
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("style", null, 'body { background-color: #303030; }'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.default, {
+    variant: "h2",
+    style: {
+      color: 'white'
+    }
+  }, "\u039A\u03B1\u03C4\u03B9 \u03BB\u03B1\u03B8\u03BF\u03C2 \u03B5\u03B3\u03B9\u03BD\u03B5..."));
+}
 
 /***/ }),
 
@@ -11238,6 +11284,52 @@ function Blog({
   }, post.excerpt)))));
 }
 const pageQuery = "712709547";
+
+/***/ }),
+
+/***/ "./src/pages/epafi.js":
+/*!****************************!*\
+  !*** ./src/pages/epafi.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Component)
+/* harmony export */ });
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Box/Box.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Typography/Typography.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Components_AppBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Components/AppBar */ "./src/Components/AppBar.js");
+
+
+
+function Component() {
+  const flexContainer = {
+    display: 'flex',
+    flexDirection: 'column',
+    padding: 0,
+    background: '#303030',
+    marginTop: 100
+  };
+  const CardStyle = {
+    maxWidth: 400,
+    margin: 15,
+    padding: 15,
+    backgroundColor: '#5c6ac4',
+    textDecoration: 'none'
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__.default, {
+    style: flexContainer
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("style", null, 'body { background-color: #303030; }'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_AppBar__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__.default, {
+    variant: "h2",
+    style: {
+      color: 'white'
+    }
+  }, "\u0395\u03A0\u0399\u039A\u039F\u0399\u039D\u03A9\u039D\u0399\u0391"));
+}
 
 /***/ }),
 

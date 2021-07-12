@@ -24,7 +24,8 @@ color:'white'
        <style>{'body { background-color: #303030; }'}</style>
       <AppBarComp/>
       <Typography variant='h2'>{post.frontmatter.title}</Typography>
-      <Typography variant='h7'>{post.frontmatter.date}</Typography >
+      <Typography variant='h7'>Γραφει ο {post.frontmatter.author}</Typography >
+      {/* <img>{post.frontmatter.image}</img> */}
       <Typography variant='h4' dangerouslySetInnerHTML={{ __html: post.html }} />
     </Box>
   )
@@ -35,7 +36,8 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date
+        author
+        
       }
     }
   }

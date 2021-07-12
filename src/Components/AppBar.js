@@ -51,7 +51,7 @@ const AppBarComp = (props)=> {
           <Button style={{textAlign:"center"}}  >
          
               <Link to="/blog" style={{ textDecoration: 'none' , color: "white",  }}>
-                {/* <ListItemIcon ><GroupIcon /></ListItemIcon> */}
+             
                 <Typography variant="h6" >ΑΡΘΡΑ</Typography>
               </Link>
           
@@ -62,20 +62,15 @@ const AppBarComp = (props)=> {
 
           <Button>
             
-              <Link to="/products" style={{ textDecoration: 'none' , color: "white",padding:5 }}>
+              <Link to="/epafi" style={{ textDecoration: 'none' , color: "white",padding:5 }}>
                 {/* <ListItemIcon><StorefrontIcon /></ListItemIcon> */}
                 <Typography variant="h6">ΕΠΙΚΟΙΝΩΝΙΑ</Typography>
               </Link>
            
+          
           </Button>
 
-          <Button>
-           
-              <Link to="/settings">
-                {/* <ListItemIcon><SettingsIcon /></ListItemIcon> */}
-              </Link>
-           
-          </Button>
+        
           
 
      

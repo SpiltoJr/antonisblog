@@ -2,9 +2,15 @@
 title: Chelsea wins Champions League
 author: Antonis Petropoulos
 date: 2021-05-15
+
 ---
 
+
+
 ## Ιστορια της Τσελσι
+
+
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png" style="padding:30px;"/>
 
 Η Τσέλσι (αγγλικά: Chelsea, προφέρεται: [ˈtʃɛlsiː]) είναι αγγλικός ποδοσφαιρικός σύλλογος που εδρεύει στο Λονδίνο. Ιδρύθηκε το 1905 και από τότε χρησιμοποιεί ως έδρα το Στάμφορντ Μπριτζ που βρίσκεται στο Φούλαμ του δυτικού Λονδίνου.
 

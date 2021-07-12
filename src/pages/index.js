@@ -39,28 +39,8 @@ export default function Home({ data }) {
       <CssBaseline  />
    <AppBarComp/>
       <Typography variant='h2' style={{color:'#fff'}}>{title}</Typography>
-    
-     
-     
-      
-    
 
-
-
-
-     
     </Box>
-
-
-
-
-
-
-
-
-
-
-
   )
 }
 
